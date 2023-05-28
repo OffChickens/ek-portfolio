@@ -2,14 +2,14 @@ html {
   height: 100%;
   width: 100%;
 }
-/* Alterations for all code in main */
+/* Alterations that effect all code in main, centering it and changing the font */
 main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 900px;
   margin-top: 20px;
   text-align: center;
 }
-/* Adjustment of the image size*/
+/* Adjustment of the image size */
 img {
   max-width: 300px;
 }
@@ -34,41 +34,41 @@ header {
   padding-top: 30px;
   display: block;
 }
-
+/* Alterations to my image to properly size it and float */
 #ek-img {
   float: left;
   width: 45%;
   min-height: 300px;
 }
-
+/* Block for the intro section next to the image, floating the div beside the image and making the size match */
 .intro {
   padding: 30px;
-  background-color: #e0e0d2;
+  background-color: #e0e0d2; /* Slightly darker background for the intro section */
   text-align: left;
   width: 45%;
   margin-left: 0px;
   float: left;
   height: 347px;
 }
-
+/* Clearing the float */
 .clear-fix {
   clear: both;
 }
 
-/*heading colors*/
+/* h2 color */
 h2 {
   color: #7D84B2;
 }
-
+/* h3 color */
 h3 {
   color: #7D84B2;
 }
-
+/* Ensuring that the about section text is left-aligned as opposed to centered */
 .about {
   text-align: left;
 }
 
-/* Alterations of the footer */
+/* Alterations of the footer mainly ensuring that it is spaced properly on the screen and coloring it */
 footer {
   height: 45px;
   color: #e0e0d2;
@@ -79,7 +79,11 @@ footer {
 }
 
 /* Changes to link colors */
+/* Base color */
 a:link{ color: #8E9DCC; }
+/* Color after link is used */
 a:visited{ color: #D9DBF1; }
+/* Color when link is hovered over */
 a:hover{ color: #7D84B2; }
+/* Color when link is being clicked */
 a:active{ color: #646ca6; }
